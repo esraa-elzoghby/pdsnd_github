@@ -15,5 +15,5 @@ Making use of **Python** to explore data related to **bike** **share** systems f
 * washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+[**Programming for Data Science with Python** nanodegree program on **udacity**](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
 
