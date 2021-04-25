@@ -169,13 +169,13 @@ def user_stats(df):
 def display_row_data(df) :
     
     display_data = input("Would you like to see the raw data? Type 'Yes' or 'No'.\n")
-    start_row = 0
+    start_r = 0
     if display_data == 'Yes' :
         while True :
-            print(df.iloc[start_row : start_row + 5])
-            start_row += 5
-            view_more = input("Would you like to see more five lines? Type 'Yes' or 'No'.\n")
-            if view_more == 'No' :
+            print(df.iloc[start_r : start_r + 5])
+            start_r += 5
+            view_more_five = input("Would you like to see more five lines? Type 'Yes' or 'No' :)\n")
+            if view_more_five == 'No' :
                 break
 
 def main():
