@@ -174,8 +174,8 @@ def display_row_data(df) :
         while True :
             print(df.iloc[start_row : start_row + 5])
             start_row += 5
-            view_more = input("Would you like to see more five lines? Type 'Yes' or 'No'.\n")
-            if view_more == 'No' :
+            view_more_five = input("Would you like to see more five lines? Type 'Yes' or 'No' :)\n")
+            if view_more_five == 'No' :
                 break
 
 def main():
